@@ -39,7 +39,10 @@ public class Corpo_Humano {
   IMC = massa/altura*altura;
  }
  }
-
+//Desafio 
+// 1. Ocorreu uma falha, pois o atributo massa é privado, alem do valor atribuido ser uma String e não um Float
+// 2. O programa executou, porem agora é possivel alterar o atribuo massa direto do main
+// 3. O programa executou porem não seria possivel utilizar o metodo serVolume() na classe main
 
 
  
